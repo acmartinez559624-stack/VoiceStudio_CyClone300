@@ -568,7 +568,7 @@ def detect_watermark(
             "confidence": 0.0,
             "message_bits": "",
             "is_omnivoice": False,
-            "error": str(e),
+            "error": "watermark detection failed",
         }
 
 
