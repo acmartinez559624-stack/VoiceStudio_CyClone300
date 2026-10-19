@@ -123,7 +123,7 @@ dependencies = [
     # (Assumption A1 in RESEARCH.md was checked at execute-time and proved
     # false — `cryptography` is not on the install path today).
     "cryptography>=41",
-    "mcp>=1.28.1,<2",
+    "mcp>=1.30.0,<2",
     # Opt-in product analytics (core/analytics.py). Inert unless the build ships a
     # POSTHOG_PROJECT_TOKEN *and* the user opts in — default OFF. No exception
     # autocapture (it would ship raw tracebacks past core.failure.sanitize()).
